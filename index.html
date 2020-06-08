@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Startup</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Response meta Tag Reference => https://getbootstrap.com/docs/4.5/getting-started/introduction/-->
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+    <!--Refer to Lecture 73 for Mail Chim setup-->
+    <!--Mail Chil URL: https://mailchi.mp/5bea25370176/demo2_080620-->
+    <!--Refer to Lecture 75 for steps to publish this webpage to internel-->
+    <!--GitHub => https://github.com/-->
+    <!--Step 1: To define a "container" Class from BootStrap-->
+    <!--Step 3: To define a "d-flex" Class from BootStrap this is to align the Text and button at the center of the image by using the BootStrap FlexBox-->
+    <!--We are using the BootStrap Flexbox to align the component Vertically-->
+    <!--BootStrap Flexbox under Align items section "align-items-center" reference => https://getbootstrap.com/docs/4.5/utilities/flex/-->
+    <!--To ensure the HTML Body occupy the full 100% of the Web page we use BootStrap "h-100" Class-->
+    <!--If the HTML Body does not occpuy the full 100% then all the Text and Button in the "container" Class will not be able to be align exactly at the center of the image-->
+    <div class="container d-flex align-items-center h-100">
+        <!--Step 2: To define a "row" Class from BootStrap to layout the component into rows-->
+        <div class="row">
+            <!--By default BootStrap divide the whole webpage into size of 12 column-->
+            <!--Refer to BootStrap "Container Class" => https://getbootstrap.com/docs/4.5/layout/overview/-->
+            <!--To ensure the header occupy the full width of web pageso we added a BootStrap class "col-12"-->
+            <header class="text-center col-12">
+                <h1 class="text-uppercase"><strong>The Biggest Startup Event of the Year</strong></h1>
+            </header>
+            <div class="buffer col-12"></div>
+            <!--To ensure the header occupy the full width of web pageso we added a BootStrap class "col-12"-->
+            <section class="text-center col-12">
+                <hr /><
+                <a href="https://mailchi.mp/5bea25370176/demo2_080620" target="_blank">
+                    <button class="btn btn-primary btn-xl" onclick="alert('I am Visual Studio 080620');">Find out more (VS 080620)</button>
+                </a>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
